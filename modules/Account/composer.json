@@ -1,0 +1,25 @@
+{
+    "name": "fndmiranda/account",
+    "description": "",
+    "authors": [
+        {
+            "name": "Fernando Miranda",
+            "email": "fndmiranda@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Account\\Providers\\AccountServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Account\\": ""
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Manifest",
+    "alias": "manifest",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Manifest\\Providers\\ManifestServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

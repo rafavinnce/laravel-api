@@ -1,0 +1,25 @@
+{
+    "name": "fndmiranda/product",
+    "description": "",
+    "authors": [
+        {
+            "name": "Fernando Miranda",
+            "email": "fndmiranda@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Dock\\Providers\\DockServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Dock\\": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "fndmiranda/product",
+    "description": "",
+    "authors": [
+        {
+            "name": "Fernando Miranda",
+            "email": "fndmiranda@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Wait\\Providers\\WaitServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Wait\\": ""
+        }
+    }
+}

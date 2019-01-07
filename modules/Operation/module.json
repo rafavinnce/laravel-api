@@ -1,0 +1,16 @@
+{
+    "name": "Operation",
+    "alias": "operation",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Operation\\Providers\\OperationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

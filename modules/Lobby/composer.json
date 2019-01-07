@@ -1,0 +1,25 @@
+{
+    "name": "fndmiranda/lobby",
+    "description": "",
+    "authors": [
+        {
+            "name": "Fernando Miranda",
+            "email": "fndmiranda@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Lobby\\Providers\\LobbyServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Lobby\\": ""
+        }
+    }
+}

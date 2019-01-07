@@ -1,0 +1,25 @@
+{
+    "name": "fndmiranda/configuration",
+    "description": "",
+    "authors": [
+        {
+            "name": "Fernando Miranda",
+            "email": "fndmiranda@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Configuration\\Providers\\ConfigurationServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Configuration\\": ""
+        }
+    }
+}

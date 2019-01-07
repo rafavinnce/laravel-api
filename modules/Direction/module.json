@@ -1,0 +1,16 @@
+{
+    "name": "Direction",
+    "alias": "direction",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Direction\\Providers\\DirectionServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
